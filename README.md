@@ -2,7 +2,7 @@
 
 ## Descrição Geral
 Este repositório reúne os códigos e anotações do curso *Practical Deep Learning for Coders*, oferecido pela fast.ai. Trata-se de um curso gratuito que ensina deep learning de forma prática, sem exigir conhecimentos matemáticos avançados ou hardware especializado, ideal para quem já tem alguma experiência em programação (principalmente em Python).  
-:contentReference[oaicite:0]{index=0}
+
 
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/5875b6a4-3b73-4f0a-a555-c19fb7d9711b" />
 
@@ -23,7 +23,7 @@ São 9 lições principais, cada uma com aproximadamente 90 minutos de vídeo:
 7. **Collaborative Filtering** – sistemas de recomendação por filtragem colaborativa  
 8. **Convolutions (CNNs)** – redes convolucionais para visão computacional  
 9. **Bônus: Data Ethics** – aspectos éticos no uso de dados  
-:contentReference[oaicite:1]{index=1}
+
 
 ### Parte 2 — Deep Learning Avançado & Stable Diffusion
 Mais de 30 horas de conteúdo em vídeo, abordando:
@@ -33,7 +33,7 @@ Mais de 30 horas de conteúdo em vídeo, abordando:
 - Técnicas como textual inversion, Dreambooth, entre outras  
 - Arquiteturas avançadas: autoencoders, U-Net, ResNets, transformers, embeddings CLIP  
 - Ferramentas e práticas: criação de `miniai` (mini framework), uso de debugger, nbdev, mixed precision, inicialização, normalização, otimizações SGD, etc.  
-:contentReference[oaicite:2]{index=2}
+
 
 ---
 
@@ -43,15 +43,48 @@ Na condução das aulas, são utilizados:
 - **PyTorch**, **fastai**, **Hugging Face**, **Gradio** – principais bibliotecas e frameworks  
 - **Notebooks interativos** via Kaggle, Colab, etc.  
 - Recursos gratuitos em nuvem, sem necessidade de hardware local topo de linha  
-:contentReference[oaicite:3]{index=3}
+
 
 ---
 
 ## Sobre a fast.ai
 A fast.ai é uma organização **sem fins lucrativos**, fundada em 2016 com o propósito de democratizar o acesso ao deep learning. Oferece cursos gratuitos — como este MOOC — acessíveis a quem já sabe programar em Python e não exige formalidades acadêmicas.  
-:contentReference[oaicite:4]{index=4}
 
 ---
 
 ## Estrutura Sugerida para o Repositório
+
+README.md ← este arquivo
+parte1/
+lesson1-getting-started/
+- notebook.ipynb
+- anotacoes.md
+lesson2-deployment/
+- notebook.ipynb
+- anotacoes.md
+...
+bonus-data-ethics/
+parte2/
+lesson9-stable-diffusion/
+- notebook.ipynb
+- anotacoes.md
+lesson10-diving-deeper/
+...
+notebooks_clean/ ← versões limpas dos notebooks, sem outputs
+slides/ ← slides ou apresentações (se houver)
+
+## Objetivos do Repositório
+
+- Servir como referência clara e estruturada do curso  
+- Facilitar revisões, estudos e colaboração com outras pessoas  
+- Registrar descobertas pessoais, soluções e insights
+
+---
+
+## Por Que Este Curso se Destaca
+
+- **Acessível**: não exige hardware de ponta nem matemática avançada  
+- **Prático desde cedo**: com projetos funcionando desde a primeira aula  
+- **Conteúdo moderno**: aborda técnicas de ponta como Stable Diffusion  
+- **Comunidade ativa**: fórum colaborativo robusto  
 
