@@ -54,7 +54,7 @@ A fast.ai é uma organização **sem fins lucrativos**, fundada em 2016 com o pr
 
 ## Estrutura Sugerida para o Repositório
 
-
+(```)
 '''
 README.md ← este arquivo
 parte1/
@@ -75,6 +75,7 @@ lesson10-diving-deeper/
 notebooks_clean/ ← versões limpas dos notebooks, sem outputs
 slides/ ← slides ou apresentações (se houver)
 '''
+(```)
 
 ## Objetivos do Repositório
 
