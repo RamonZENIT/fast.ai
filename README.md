@@ -54,28 +54,25 @@ A fast.ai é uma organização **sem fins lucrativos**, fundada em 2016 com o pr
 
 ## Estrutura Sugerida para o Repositório
 
-(```)
-'''
 README.md ← este arquivo
 parte1/
-lesson1-getting-started/
-- notebook.ipynb
-- anotacoes.md
-lesson2-deployment/
-- notebook.ipynb
-- anotacoes.md
-...
-bonus-data-ethics/
+  lesson1-getting-started/
+    - notebook.ipynb
+    - anotacoes.md
+  lesson2-deployment/
+    - notebook.ipynb
+    - anotacoes.md
+  ...
+  bonus-data-ethics/
 parte2/
-lesson9-stable-diffusion/
-- notebook.ipynb
-- anotacoes.md
-lesson10-diving-deeper/
-...
+  lesson9-stable-diffusion/
+    - notebook.ipynb
+    - anotacoes.md
+  lesson10-diving-deeper/
+  ...
 notebooks_clean/ ← versões limpas dos notebooks, sem outputs
 slides/ ← slides ou apresentações (se houver)
-'''
-(```)
+
 
 ## Objetivos do Repositório
 
